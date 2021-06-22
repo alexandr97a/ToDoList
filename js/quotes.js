@@ -31,9 +31,9 @@ const quotes = [
     },
 ];
 
-const engQuote = document.querySelector("#quote span:nth-child(1)");
-const krQuote = document.querySelector("#quote span:nth-child(2)");
-const author = document.querySelector("#quote span:nth-child(3)");
+const engQuote = document.querySelector("#quote .engQoute");
+const krQuote = document.querySelector("#quote .krQoute");
+const author = document.querySelector("#quote .author");
 const todayQuote = quotes[Math.floor(Math.random()* quotes.length)];
 
 engQuote.innerText = todayQuote.quote_eng;
